@@ -22,7 +22,7 @@ const steps = [
 
 export default function GetStarted() {
   return (
-    <div id='started' className='max-w-[1240px] m-auto md:pl-20 p-4 py-16 md:pt-[29em] pt-[21em]'>
+    <div id='started' className='max-w-[1240px] m-auto md:pl-20 p-4 py-16 md:pt-[28em] pt-[21em]'>
       <div className=''>
       <h1 className='font-primaryMedium text-center md:text-3xl text-xl'>Create Stunning Presentations With Ease</h1>
         <p className='max-w-[650px] font-primaryRegular text-[16px] text-center m-auto py-2'>Zlide is the revolutionary software that simplifies the process of creating visually compelling PowerPoint presentations. With the power of AI, Zlide converts your textual data into well-structured slides, saving you time and effort.</p>
@@ -30,7 +30,7 @@ export default function GetStarted() {
 
       <div className='py-12 flex md:flex-row flex-col space-x-4 w-full'>
     {steps.map((step, index) => (
-        <ul key={index}>
+        <ul key={index} className='md:space-x-4 space-x-0 md:space-y-0 space-y-4'>
             <li className=''><img src={step.src} alt="pic" className='w-[397px] h-[290px]'/></li>
             <li className='max-w-[300px] font-primaryMedium text-center md:text-2xl text-2xl py-2'>{step.text1}</li>
             <li className='max-w-[650px] font-primaryRegular text-[15px] text-center m-auto py-1'>{step.text2}</li>
