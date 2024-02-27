@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <div id='navbar' className='w-full h-[100px] flex justify-between p-8 items-center relative bg-transparent z-20'>
         <div>
-          <img src="/public/images/Zlide Logo.png" alt="zlide-logo" width={132} height={42} className='relative left-10' />  
+          <img src="/images/Zlide Logo.png" alt="zlide-logo" width={132} height={42} className='relative md:left-10 left-' />  
         </div>
 
         <ul className='flex space-x-10 text-white text-[17px] tracking-wider font-primaryThin '>
